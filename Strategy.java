@@ -10,6 +10,7 @@ class Main{
         sortingContext.performSort(arr);
     }
 }
+
 interface SortStrategy{
     void sort(int[] arr);
 }
